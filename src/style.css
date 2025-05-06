@@ -13,22 +13,18 @@ body {
   @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-white;
 }
 
-/* Убираем лишние тени и рамки */
 section {
   @apply py-24 px-6;
 }
 
-/* Заголовки */
 h1, h2, h3 {
   @apply font-bold tracking-tight;
 }
 
-/* Кнопки */
 button, a[href^="#"] {
   @apply transition duration-300;
 }
 
-/* Убираем лишние эффекты */
 button:hover, a[href^="#"]:hover {
   @apply opacity-90;
 }
